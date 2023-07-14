@@ -5,6 +5,8 @@ import Course from "../Courses/Course";
 import Community from "../Community/Community";
 import Plans from "../Plans/Plans";
 import "./Home.css";
+import AboutUs from "../AboutUS/AboutUs";
+import banner from "../../../assets/img/banner.jpg";
 
 function Home() {
   const handleClick = () => {
@@ -13,7 +15,7 @@ function Home() {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="main-wrapper">
           <div className="home-container">
             <div className="home-content">
               <h2 className="section-title">Learn Everything For Free</h2>
@@ -53,6 +55,7 @@ function Home() {
       <Course />
       <Community />
       <Plans />
+      <AboutUs />
     </>
   );
 }

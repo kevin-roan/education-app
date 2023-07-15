@@ -8,17 +8,8 @@ import Plans from "../components/Pages/Plans/Plans";
 import AboutUs from "../components/Pages/AboutUS/AboutUs";
 import ContactUs from "../components/Pages/ContactUs/ContactUs";
 import SupportUs from "../components/Pages/SupportUs/SupportUs";
-import backgroundImage from "../assets/img/banner.jpg";
 
 function LayoutRoutes() {
-  const banner = {
-    background: "#03b97c",
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    width: "100%",
-    height: "760px",
-  };
   return (
     <Router>
       <Header />

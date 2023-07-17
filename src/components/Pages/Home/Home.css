@@ -1,20 +1,7 @@
-.main-wrapper {
-  width: 1140px auto;
-  background-image: url(../../../assets/img/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 760px;
-  padding: 0px 15px;
-  margin-top: -50px;
-}
-
 .home-container {
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-  height: 600px;
 }
 
 .section-title {
@@ -50,14 +37,14 @@
 
 .box-img {
   position: absolute;
-  top: -12%;
-  left: -13.3%;
+  top: -13.5%;
+  left: -15.3%;
   z-index: 10;
 }
 
 .box-img img {
-  width: 25.3rem;
-  height: 25rem;
+  width: 22.3rem;
+  height: 22rem;
   border-radius: 54%;
   margin-left: 83px;
   margin-top: 78px;
